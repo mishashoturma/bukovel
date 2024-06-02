@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Зима у Буковелі</title>
+    <link rel="stylesheet" href="style4.css">
+    <link rel="icon" type="image/x-icon" href="icons/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+     <!--Навігаційна панель-->
+     <div class="navigation">
+        <a href="page1.html"><img src="images/logo.png" alt="Logo Image" id="logo"></a>
+        <ul data-lang="uk">
+            <li><a href="page2.html">ЗИМА</a></li>
+            <li><a href="page3.html">ЛІТО</a></li>
+            <li><a href="page4.html">СКІ-ПАСИ</a></li>
+            <li><a href="page1.html">ГОТЕЛІ</a></li> 
+            <li><a href="page5.html">АКЦІЇ</a></li>
+            <li><a href="#">ДОЗВІЛЛЯ <span>BUKOVEL</span></a></li>
+        </ul>
+        <ul data-lang="en" style="display: none;">
+            <li><a href="page2.html">WINTER</a></li>
+            <li><a href="page3.html">SUMMER</a></li>
+            <li><a href="page4.html">SKI-PASSES</a></li>
+            <li><a href="page1.html">HOTELS</a></li> 
+            <li><a href="page5.html">SPECIALS</a></li>
+            <li><a href="#">RECREATION</a></li>
+        </ul>
+        <button id="changeLanguage">UA</button>
+    </div>
+
+    <div class="container" data-lang="uk">
+        <div class="content">
+            <h1><span>Ski-</span>паси</h1>
+            <div class="ski-content">
+                <h2><span>ski-</span>паси "на сьогодні"</h2>
+                <p>Сезон <span>2022-2023.</span> Дійсні в день придбання.</p>
+
+                <h2>Високий сезон<span id="price">ціна від <br><span>1 036 ₴</span><br> день</span></h2>
+                <p>З <span>18</span> грудня по <span>1</span> січня<span>;</span> з <span>7</span> січня по <span>16</span> березня<span>.</span></p>
+                
+                <h2>Різдвяний сезон<span id="price">ціна від <br><span>1 350 ₴</span><br> день</span></h2>
+                <p>З <span>2</span> по <span>6</span> січня</p>
+
+                <h2>Низький сезон<span id="price">ціна від <br><span>621 ₴</span><br> день</span></h2>
+                <p>Від початку сезону до <span>17</span> грудня<span>;</span> з <span>17</span> бернезня до кінця сезону<span>.</span></p>
+            </div>
+        </div>
+        <div class="filters">
+            <button>за популярністю</button>
+            <button>за ціною</button>
+            <div class="checkboxes">
+                <h3>НОМІНАЛИ</h3>
+                <input type="checkbox"><span id="checkbox">На сьогодні<br></span>
+                <input type="checkbox"><span id="checkbox"><span id="day">1</span> день<br></span>
+                <input type="checkbox"><span id="checkbox"><span id="day">2</span> дні<br></span>
+                <input type="checkbox"><span id="checkbox"><span id="day">3</span> дні<br></span>
+                <input type="checkbox"><span id="checkbox"><span id="day">4</span> дні<br></span>
+                <input type="checkbox"><span id="checkbox"><span id="day">5</span> днів<br></span>
+                <input type="checkbox"><span id="checkbox"><span id="day">6</span> днів<br></span>
+                <input type="checkbox"><span id="checkbox"><span id="day">7</span> днів<br></span>
+                <input type="checkbox"><span id="checkbox"><span id="day">8</span> днів<br></span>
+                <input type="checkbox"><span id="checkbox"><span id="day">9</span> днів<br></span>
+                <input type="checkbox"><span id="checkbox"><span id="day">10</span> днів</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" data-lang="en" style="display: none;">
+        <div class="content">
+            <h1><span>Ski-</span>passes</h1>
+            <div class="ski-content">
+                <h2><span>ski-</span>passes "for today"</h2>
+                <p>Season <span>2022-2023.</span> Available on day of purchase.</p>
+
+                <h2>High season<span id="price">price from <br><span>1 036 ₴</span><br> at day</span></h2>
+                <p>From <span>18</span> december to <span>1</span> january<span>;</span> from <span>7</span> january to <span>16</span> march<span>.</span></p>
+                
+                <h2>Christmas season<span id="price">price from <br><span>1 350 ₴</span><br> at day</span></h2>
+                <p>From <span>2</span> to <span>6</span> january</p>
+
+                <h2>Low season<span id="price">price from <br><span>621 ₴</span><br> at day</span></h2>
+                <p>From the beginning of the season to <span>17</span> december<span>;</span> from <span>17</span> march until the end of the season<span>.</span></p>
+            </div>
+        </div>
+        <div class="filters">
+            <button>by popularity</button>
+            <button>by price</button>
+            <div class="checkboxes">
+                <h3>NOMINALS</h3>
+                <input type="checkbox"><span id="checkbox">Today<br></span>
+                <input type="checkbox"><span id="checkbox"><span id="day">1</span> day<br></span>
+                <input type="checkbox"><span id="checkbox"><span id="day">2</span> days<br></span>
+                <input type="checkbox"><span id="checkbox"><span id="day">3</span> days<br></span>
+                <input type="checkbox"><span id="checkbox"><span id="day">4</span> days<br></span>
+                <input type="checkbox"><span id="checkbox"><span id="day">5</span> days<br></span>
+                <input type="checkbox"><span id="checkbox"><span id="day">6</span> days<br></span>
+                <input type="checkbox"><span id="checkbox"><span id="day">7</span> days<br></span>
+                <input type="checkbox"><span id="checkbox"><span id="day">8</span> days<br></span>
+                <input type="checkbox"><span id="checkbox"><span id="day">9</span> days<br></span>
+                <input type="checkbox"><span id="checkbox"><span id="day">10</span> days<br></span>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="scripts/script1.js"></script>
+</body>
+</html>
